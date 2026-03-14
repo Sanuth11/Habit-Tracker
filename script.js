@@ -1,4 +1,5 @@
-const days = 31;
+const today = new Date();
+const days = new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate();
 
 const headerRow = document.getElementById("headerRow");
 const habitBody = document.getElementById("habitBody");
@@ -19,7 +20,10 @@ eating: "🍽️",
 reading: "📚",
 meditation: "🧘",
 running: "🏃",
-walking: "🚶"
+walking: "🚶",
+chess: "♟️",
+book: "📖",
+NoJunk: "🚫🍔",
 };
 
 /* ---------- MONTH RESET ---------- */
