@@ -1,4 +1,4 @@
-# 📊 Monthly Habit Tracker
+# 📊  Habit Tracker
 
 A simple and interactive **Habit Tracking Web App** that helps users track daily habits, monitor progress, and analyze weekly performance.
 The app provides visual insights using charts and analytics to encourage consistency and productivity.
@@ -52,6 +52,10 @@ The app provides visual insights using charts and analytics to encourage consist
 * **JavaScript (Vanilla JS)**
 * **Chart.js** for data visualization
 * **LocalStorage API** for saving data
+
+## 🚀 Live Demo
+
+Try the app here:https://sanuth11.github.io/Habit-Tracker/
 
 ---
 
