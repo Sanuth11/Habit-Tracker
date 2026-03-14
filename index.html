@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
+    <text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+
+<title>Habit Tracker</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<h1><b>HABIT TRACKER 📊</b></h1>
+
+<div class="progress-section">
+
+<h3>Today's Progress 📈</h3>
+
+<div class="progress-bar">
+<div id="progress"></div>
+</div>
+
+<p id="progressText">0% habits completed today</p>
+
+</div>
+
+
+<table>
+
+<thead>
+<tr id="headerRow">
+<th>Habit</th>
+</tr>
+</thead>
+
+<tbody id="habitBody"></tbody>
+
+</table>
+
+
+<div class="addHabit">
+
+<input type="text" id="habitInput" placeholder="Enter new habit">
+
+<button onclick="addHabit()">Add Habit</button>
+
+</div>
+
+
+<div class="chartSection">
+
+<h2 id="chartTitle">📊 Habit Progress</h2>
+
+<canvas id="progressChart"></canvas>
+
+</div>
+
+<div class="analyticsSection">
+
+<h2><b>WEEKLY ANALYTICS 📝</b></h2>
+
+<div id="weeklyStats"></div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
